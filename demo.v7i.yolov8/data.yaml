@@ -1,0 +1,13 @@
+train: /home/sprice/satellite_v2/aim2024/demo.v7i.yolov8/train/images
+val: /home/sprice/satellite_v2/aim2024/demo.v7i.yolov8/valid/images
+test: /home/sprice/satellite_v2/aim2024/demo.v7i.yolov8/test/images
+
+nc: 1
+names: ['Powder']
+
+roboflow:
+  workspace: particleresearch
+  project: demo-hoblh
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/particleresearch/demo-hoblh/dataset/7
