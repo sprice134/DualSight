@@ -22,7 +22,8 @@ say, 90% of one particle is contained within another one, delete the small one''
 
 # Load the trained model (replace 'yolov8n-seg.pt' with your model's weight file)
 # model = YOLO('models/yolov8s_trained_weights.pt')  # Use the path to your trained weights
-model = YOLO('/home/sprice/satellite_v2/aim2024/modelPerformance/models_s/train/weights/best.pt') 
+model = YOLO('/home/sprice/DualSight/modelPerformance/models_s/train/weights/best.pt') 
+
 
 # Copper
 # image_path = '/home/sprice/satellite_v2/particleTest/demo.v5i.yolov8/test/images/Cu-Ni-Powder_250x_2_SE_V1_png.rf.eec5f31cbe6f51d8aa6a574a01f1883c.jpg'
@@ -44,7 +45,7 @@ image_path = '/home/sprice/satellite_v2/particleTest/demo.v5i.yolov8/test/images
 image = Image.open(image_path)
 
 
-sam_checkpoint = "/home/sprice/satellite_v2/particleTest/segmentAnythingTest/model/sam_vit_l_0b3195.pth"
+sam_checkpoint = "/home/sprice/DualSight/modelPerformance/sam_vit_l_0b3195.pth"
 model_type = "vit_l"
 device = "cuda"
 sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)

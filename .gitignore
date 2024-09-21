@@ -2,3 +2,4 @@
 *.pth
 /models
 /modelPerformance
+/yoloEnv/

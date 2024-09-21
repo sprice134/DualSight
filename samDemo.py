@@ -192,8 +192,8 @@ def apply_mask_to_image(image_path, mask, color_with_alpha):
 
 
 if __name__ == '__main__':
-
-    sam_checkpoint = "model/sam_vit_l_0b3195.pth"
+    sam_checkpoint = "/home/sprice/DualSight/modelPerformance/sam_vit_l_0b3195.pth"
+    # sam_checkpoint = "model/sam_vit_l_0b3195.pth"
     model_type = "vit_l"
 
     device = "cuda"
