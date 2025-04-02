@@ -1,0 +1,5 @@
+Commands
+
+python -m venv dsEnv
+source dsEnv/bin/activate
+pip install git+https://github.com/facebookresearch/segment-anything.git
