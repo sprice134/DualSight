@@ -1,4 +1,3 @@
-@ -1,250 +0,0 @@
 from segment_anything import sam_model_registry, SamPredictor
 import numpy as np
 import torch
