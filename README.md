@@ -5,6 +5,7 @@
  - One of the largest open-access datasets of labeled metallic powder particles for instance segmentation. 
 
 ![alt text](https://github.com/sprice134/DualSight/blob/master/manuscriptData/dualSightImprovement.png)
+![alt text](https://github.com/sprice134/DualSight/blob/master/manuscriptData/performanceTable.png)
 
 # Installation
 ```
