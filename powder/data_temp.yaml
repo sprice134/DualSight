@@ -7,6 +7,6 @@ roboflow:
   url: https://universe.roboflow.com/particleresearch/demo-hoblh/dataset/7
   version: 7
   workspace: particleresearch
-test: /Users/sprice/Documents/GitHub/DualSight/demo.v7i.yolov8/test/images
-train: /Users/sprice/Documents/GitHub/DualSight/demo.v7i.yolov8/train/images
-val: /Users/sprice/Documents/GitHub/DualSight/demo.v7i.yolov8/valid/images
+test: /home/sprice/DualSight/powder/test/images
+train: /home/sprice/DualSight/powder/train/images
+val: /home/sprice/DualSight/powder/valid/images

@@ -1,5 +1,8 @@
 # DualSight: Multi-Stage Instance Segmentation Framework
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sprice134/DualSight/blob/master/demo.ipynb)
+
+
 ### Highlights
  - A multi-stage segmentation framework that combines lightweight model predictions, prompt generation, and the precision of SAM segmenting.
  - One of the largest open-access datasets of labeled metallic powder particles for instance segmentation. 
