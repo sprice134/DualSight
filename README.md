@@ -1,5 +1,6 @@
 # DualSight: Multi-Stage Instance Segmentation Framework
 
+### Demo:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sprice134/DualSight/blob/master/demo.ipynb)
 
 
@@ -11,6 +12,7 @@
 ![alt text](https://github.com/sprice134/DualSight/blob/master/manuscriptData/performanceTable.png)
 
 # Installation
+To get started:
 ```
 # Create and activate a Python virtual environment
 python3 -m venv env
@@ -29,6 +31,7 @@ git clone https://github.com/sprice134/DualSight.git
 ```
 
 # Dataset
+Our dataset is in YOLOv8 format, labeled using Roboflow, in the following organizational structure. 
 ```
 powders/
 ├── train/
@@ -41,7 +44,9 @@ powders/
     ├── images/
     └── labels/
 ```
+
 # Bibtex
+If you find this helpful, please cite our corresponding manuscript:
 ```
 @article{price2025Dualsight,
   title={{DualSight}: Multi-Stage Instance Segmentation Framework for Improved Precision},
